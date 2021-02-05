@@ -10,22 +10,37 @@ hl{
 }
 /*Make all <li> elements in the shade of hexadecimal blue*/
 li{
-  color: #2EA0A8;
+  color: #ADD8E6;
 }
 /*Paragraph background to orange*/
 p{
   background: orange;
 }
 /*Make all <h3> have 5px red solid border*/
-h3{
-  border-style: solid; border-width: 5px; border-color: red;
+h3{ 
+  border-width: 5px; 
+  border-color: red;
+  border-style: solid; 
 }
 /*Give everything with <abbr> bold and underlined*/
-
+abbr{
+  font-weight: bold;
+  text-decoration: underline;
+}
 /*Give elements with class "explanation" red*/
-
+.explanation{
+  color: red;  
+}
 /*Give <p> in id "zen-benefits" pink background*/
-
+#zen-benefits{
+  background: pink;
+}
 /*Make <li> adjacent to <h2> red background*/
-
+h2, h2 ~ ul{
+  background: red;
+}
 /*Give <em> inside <p> red and bold*/
+p em{
+  color: red;
+  border-style: bold;
+}
